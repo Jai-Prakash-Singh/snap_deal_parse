@@ -22,13 +22,13 @@ class to_common(object):
 	
 	   
 
-	db = MySQLdb.connect("192.99.13.229","root","6Tresxcvbhy", dbname)
+	db = MySQLdb.connect("xxxx","root","xxxxxx", dbname)
 	cursor = db.cursor()
 
 	self.db = db 
 	self.cursor = cursor
 
-        self.db2 = db2 = MySQLdb.connect("54.201.218.138","root","india@123", "zov", local_infile = 1)
+        self.db2 = db2 = MySQLdb.connect("xxxxx","root","xxxxxx", "zov", local_infile = 1)
         self.cursor2 = cursor2 = db2.cursor()
 
 
