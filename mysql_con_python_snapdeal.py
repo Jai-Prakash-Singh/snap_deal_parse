@@ -6,7 +6,7 @@ import MySQLdb
 
 
 def supermain():
-    db = MySQLdb.connect("localhost","root","6Tresxcvbhy")
+    db = MySQLdb.connect("localhost","root","xxxxxxxxx")
     cursor = db.cursor()
 
     sql = "create database if not exists  snapdeal"
