@@ -86,7 +86,7 @@ def supermain(directory):
     except:
         pass
 
-    db = MySQLdb.connect("192.99.13.229","root","6Tresxcvbhy","snapdeal")
+    db = MySQLdb.connect("localhost","root","XXXXXX","snapdeal")
     cursor = db.cursor()
 
     sql_select = """ select product_id, image_link from snapdeal_data where upload_image_status = 'NO' """
