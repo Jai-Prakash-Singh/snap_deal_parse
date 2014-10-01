@@ -122,7 +122,7 @@ def supermain(directory):
     databasename = "snapdeal"
     databasetable = "snapdeal_data"
     dbusername =  "root"
-    dbpassword = "6Tresxcvbhy"
+    dbpassword = "xxxxxxxxx"
     obj = upload_to_cdn(dbusername, dbpassword, directory, databasename, databasetable, link)
     obj.connect_to_db()
     obj.extract_sku_image_link()
